@@ -9,6 +9,7 @@
 #include "Factorial.hpp"
 #include "PowerRecursion.hpp"
 #include "PrintNumber.hpp"
+#include "NumberOfDigits.hpp"
 
 
 using namespace std;
@@ -27,6 +28,11 @@ int main(int argc, const char * argv[]) {
 //
 //    print number problem
     
-    printNumber();
+//    printNumber();
+    
+//    print number of digit in a number
+    
+    numberOfDigits();
+    
     return 0;
 }
