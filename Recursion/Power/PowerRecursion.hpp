@@ -9,5 +9,5 @@
 #define PowerRecursion_hpp
 
 #include <stdio.h>
-
+void power();
 #endif /* PowerRecursion_hpp */

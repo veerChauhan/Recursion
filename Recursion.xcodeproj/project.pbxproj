@@ -63,20 +63,11 @@
 		FA7A27AD2855123D005111D8 /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FA7A27BD28551BDF005111D8 /* Power */,
 				FA7A27B9285512A3005111D8 /* Factorial */,
-				FA7A27B82855129A005111D8 /* PowerRecurion */,
 				FA7A27AE2855123D005111D8 /* main.cpp */,
-				FA7A27B528551265005111D8 /* PowerRecursion.cpp */,
-				FA7A27B628551265005111D8 /* PowerRecursion.hpp */,
 			);
 			path = Recursion;
-			sourceTree = "<group>";
-		};
-		FA7A27B82855129A005111D8 /* PowerRecurion */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PowerRecurion;
 			sourceTree = "<group>";
 		};
 		FA7A27B9285512A3005111D8 /* Factorial */ = {
@@ -86,6 +77,15 @@
 				FA7A27BB285512B4005111D8 /* Factorial.hpp */,
 			);
 			path = Factorial;
+			sourceTree = "<group>";
+		};
+		FA7A27BD28551BDF005111D8 /* Power */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A27B528551265005111D8 /* PowerRecursion.cpp */,
+				FA7A27B628551265005111D8 /* PowerRecursion.hpp */,
+			);
+			path = Power;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

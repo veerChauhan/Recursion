@@ -7,14 +7,20 @@
 
 #include <iostream>
 #include "Factorial.hpp"
+#include "PowerRecursion.hpp"
+
 using namespace std;
 
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World! welcome to Recurison\n";
+    std::cout << "Hello, World! welcome to Recurison\n" << endl;
     
-    findFactorial();
+    //    Find Factorial
+    //    findFactorial();
+    //
+    //    Find Power
+    power();
     return 0;
 }
