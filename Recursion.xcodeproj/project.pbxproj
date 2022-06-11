@@ -10,6 +10,7 @@
 		FA7A27AF2855123D005111D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27AE2855123D005111D8 /* main.cpp */; };
 		FA7A27B728551265005111D8 /* PowerRecursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27B528551265005111D8 /* PowerRecursion.cpp */; };
 		FA7A27BC285512B4005111D8 /* Factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27BA285512B4005111D8 /* Factorial.cpp */; };
+		FA7A27C12855206F005111D8 /* PrintNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27BF2855206F005111D8 /* PrintNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		FA7A27B628551265005111D8 /* PowerRecursion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerRecursion.hpp; sourceTree = "<group>"; };
 		FA7A27BA285512B4005111D8 /* Factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Factorial.cpp; sourceTree = "<group>"; };
 		FA7A27BB285512B4005111D8 /* Factorial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factorial.hpp; sourceTree = "<group>"; };
+		FA7A27BF2855206F005111D8 /* PrintNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintNumber.cpp; sourceTree = "<group>"; };
+		FA7A27C02855206F005111D8 /* PrintNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintNumber.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		FA7A27AD2855123D005111D8 /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FA7A27BE28552063005111D8 /* PrintNumber */,
 				FA7A27BD28551BDF005111D8 /* Power */,
 				FA7A27B9285512A3005111D8 /* Factorial */,
 				FA7A27AE2855123D005111D8 /* main.cpp */,
@@ -86,6 +90,15 @@
 				FA7A27B628551265005111D8 /* PowerRecursion.hpp */,
 			);
 			path = Power;
+			sourceTree = "<group>";
+		};
+		FA7A27BE28552063005111D8 /* PrintNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A27BF2855206F005111D8 /* PrintNumber.cpp */,
+				FA7A27C02855206F005111D8 /* PrintNumber.hpp */,
+			);
+			path = PrintNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,7 @@
 			files = (
 				FA7A27B728551265005111D8 /* PowerRecursion.cpp in Sources */,
 				FA7A27AF2855123D005111D8 /* main.cpp in Sources */,
+				FA7A27C12855206F005111D8 /* PrintNumber.cpp in Sources */,
 				FA7A27BC285512B4005111D8 /* Factorial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
