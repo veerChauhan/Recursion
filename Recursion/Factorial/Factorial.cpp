@@ -6,7 +6,10 @@
 //
 
 #include "Factorial.hpp"
+#include <iostream>
 using namespace std;
+
+
 
 int factorial(int n) {
     
@@ -14,4 +17,13 @@ int factorial(int n) {
         return  1;
     }
     return n * factorial(n -1);
+}
+
+void findFactorial() {
+    int number;
+    cout << "Enter your number to find factorial : " ;
+    cin >> number;
+    
+    cout << "Factorial of number " << number << " Is " << factorial(number) << endl;
+
 }

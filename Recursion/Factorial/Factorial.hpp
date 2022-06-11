@@ -10,6 +10,5 @@
 
 #include <stdio.h>
 
-int factorial(int n);
-
+void findFactorial();
 #endif /* Factorial_hpp */
