@@ -16,6 +16,7 @@
 #include "SomeOFElement.hpp"
 #include "FindElementIsPresentOrNot.hpp"
 #include "FirstIndexOfExistence.hpp"
+#include "LastIndexOfOccurrenceOfElement.hpp"
 
 
 using namespace std;
@@ -47,7 +48,8 @@ int main(int argc, const char * argv[]) {
 //    SomeOFElementInput();
     
 //    inputArrayForSearchingElement();
-    inputForFirstExistenceOfArray();
+//    inputForFirstExistenceOfArray();
+    inputForLastExistenceOfElementInArray();
     
     return 0;
 }
