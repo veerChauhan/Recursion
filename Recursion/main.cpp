@@ -14,6 +14,7 @@
 #include "AllIndicesOfANumber.hpp"
 #include "ArraySortedValidation.hpp"
 #include "SomeOFElement.hpp"
+#include "FindElementIsPresentOrNot.hpp"
 
 
 using namespace std;
@@ -42,7 +43,9 @@ int main(int argc, const char * argv[]) {
     
     //    printFibonnac();
     //    inputArrayForProgram();
-    SomeOFElementInput();
+//    SomeOFElementInput();
+    
+    inputArrayForSearchingElement();
     
     return 0;
 }
