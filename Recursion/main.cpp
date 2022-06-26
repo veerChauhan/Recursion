@@ -15,6 +15,7 @@
 #include "ArraySortedValidation.hpp"
 #include "SomeOFElement.hpp"
 #include "FindElementIsPresentOrNot.hpp"
+#include "FirstIndexOfExistence.hpp"
 
 
 using namespace std;
@@ -45,7 +46,8 @@ int main(int argc, const char * argv[]) {
     //    inputArrayForProgram();
 //    SomeOFElementInput();
     
-    inputArrayForSearchingElement();
+//    inputArrayForSearchingElement();
+    inputForFirstExistenceOfArray();
     
     return 0;
 }
