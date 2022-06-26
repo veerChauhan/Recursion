@@ -17,6 +17,8 @@
 #include "FindElementIsPresentOrNot.hpp"
 #include "FirstIndexOfExistence.hpp"
 #include "LastIndexOfOccurrenceOfElement.hpp"
+#include "AllIndicesOfANumberInAnArray.hpp"
+#include "CoutZeroInInteger.hpp"
 
 
 using namespace std;
@@ -49,7 +51,12 @@ int main(int argc, const char * argv[]) {
     
 //    inputArrayForSearchingElement();
 //    inputForFirstExistenceOfArray();
-    inputForLastExistenceOfElementInArray();
+//    inputForLastExistenceOfElementInArray();
+    
+//    inputArrayForFindInidices();
+    
+    countZeroInIntegerInput();
+
     
     return 0;
 }

@@ -11,6 +11,8 @@
 		FA2538622868616700792A0B /* FindElementIsPresentOrNot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2538602868616700792A0B /* FindElementIsPresentOrNot.cpp */; };
 		FA2538662868669000792A0B /* FirstIndexOfExistence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2538642868669000792A0B /* FirstIndexOfExistence.cpp */; };
 		FA25386928686A7900792A0B /* LastIndexOfOccurrenceOfElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA25386728686A7900792A0B /* LastIndexOfOccurrenceOfElement.cpp */; };
+		FA25386E2868804700792A0B /* AllIndicesOfANumberInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA25386C2868804700792A0B /* AllIndicesOfANumberInAnArray.cpp */; };
+		FA2538712868DF5A00792A0B /* CoutZeroInInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA25386F2868DF5A00792A0B /* CoutZeroInInteger.cpp */; };
 		FA50EF3828623993008B9EFA /* AllIndicesOfANumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA50EF3628623993008B9EFA /* AllIndicesOfANumber.cpp */; };
 		FA50EF3C286245DB008B9EFA /* ArraySortedValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA50EF3A286245DB008B9EFA /* ArraySortedValidation.cpp */; };
 		FA7A27AF2855123D005111D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27AE2855123D005111D8 /* main.cpp */; };
@@ -42,6 +44,10 @@
 		FA2538652868669000792A0B /* FirstIndexOfExistence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstIndexOfExistence.hpp; sourceTree = "<group>"; };
 		FA25386728686A7900792A0B /* LastIndexOfOccurrenceOfElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LastIndexOfOccurrenceOfElement.cpp; sourceTree = "<group>"; };
 		FA25386828686A7900792A0B /* LastIndexOfOccurrenceOfElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LastIndexOfOccurrenceOfElement.hpp; sourceTree = "<group>"; };
+		FA25386C2868804700792A0B /* AllIndicesOfANumberInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllIndicesOfANumberInAnArray.cpp; sourceTree = "<group>"; };
+		FA25386D2868804700792A0B /* AllIndicesOfANumberInAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllIndicesOfANumberInAnArray.hpp; sourceTree = "<group>"; };
+		FA25386F2868DF5A00792A0B /* CoutZeroInInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CoutZeroInInteger.cpp; sourceTree = "<group>"; };
+		FA2538702868DF5A00792A0B /* CoutZeroInInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CoutZeroInInteger.hpp; sourceTree = "<group>"; };
 		FA50EF3628623993008B9EFA /* AllIndicesOfANumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllIndicesOfANumber.cpp; sourceTree = "<group>"; };
 		FA50EF3728623993008B9EFA /* AllIndicesOfANumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllIndicesOfANumber.hpp; sourceTree = "<group>"; };
 		FA50EF3A286245DB008B9EFA /* ArraySortedValidation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraySortedValidation.cpp; sourceTree = "<group>"; };
@@ -107,6 +113,24 @@
 			path = LastIndexOfExistenceOfElement;
 			sourceTree = "<group>";
 		};
+		FA25386B2868802500792A0B /* AllIndicesOfNuberInAnArray */ = {
+			isa = PBXGroup;
+			children = (
+				FA25386C2868804700792A0B /* AllIndicesOfANumberInAnArray.cpp */,
+				FA25386D2868804700792A0B /* AllIndicesOfANumberInAnArray.hpp */,
+			);
+			path = AllIndicesOfNuberInAnArray;
+			sourceTree = "<group>";
+		};
+		FA2538722868DFDC00792A0B /* CountAllZeroInInteger */ = {
+			isa = PBXGroup;
+			children = (
+				FA25386F2868DF5A00792A0B /* CoutZeroInInteger.cpp */,
+				FA2538702868DF5A00792A0B /* CoutZeroInInteger.hpp */,
+			);
+			path = CountAllZeroInInteger;
+			sourceTree = "<group>";
+		};
 		FA50EF3528623974008B9EFA /* AllIndicesOfNumber */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +168,8 @@
 		FA7A27AD2855123D005111D8 /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FA2538722868DFDC00792A0B /* CountAllZeroInInteger */,
+				FA25386B2868802500792A0B /* AllIndicesOfNuberInAnArray */,
 				FA25386A28686A8600792A0B /* LastIndexOfExistenceOfElement */,
 				FA2538632868667800792A0B /* FirstIndexOfExistenece */,
 				FA25385F2868614400792A0B /* FindElementIsPresent */,
@@ -268,11 +294,13 @@
 				FA7A27C12855206F005111D8 /* PrintNumber.cpp in Sources */,
 				FA7A27C52855259A005111D8 /* NumberOfDigits.cpp in Sources */,
 				FA50EF3C286245DB008B9EFA /* ArraySortedValidation.cpp in Sources */,
+				FA25386E2868804700792A0B /* AllIndicesOfANumberInAnArray.cpp in Sources */,
 				FA50EF3828623993008B9EFA /* AllIndicesOfANumber.cpp in Sources */,
 				FA25385E28685C9800792A0B /* SomeOFElement.cpp in Sources */,
 				FA25386928686A7900792A0B /* LastIndexOfOccurrenceOfElement.cpp in Sources */,
 				FA2538622868616700792A0B /* FindElementIsPresentOrNot.cpp in Sources */,
 				FA2538662868669000792A0B /* FirstIndexOfExistence.cpp in Sources */,
+				FA2538712868DF5A00792A0B /* CoutZeroInInteger.cpp in Sources */,
 				FA7A27BC285512B4005111D8 /* Factorial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
