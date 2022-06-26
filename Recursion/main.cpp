@@ -19,6 +19,7 @@
 #include "LastIndexOfOccurrenceOfElement.hpp"
 #include "AllIndicesOfANumberInAnArray.hpp"
 #include "CoutZeroInInteger.hpp"
+#include "GeometricSum.hpp"
 
 
 using namespace std;
@@ -55,8 +56,8 @@ int main(int argc, const char * argv[]) {
     
 //    inputArrayForFindInidices();
     
-    countZeroInIntegerInput();
+//    countZeroInIntegerInput();
 
-    
+    inputForGeometricSum();
     return 0;
 }

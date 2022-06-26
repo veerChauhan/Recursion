@@ -27,7 +27,7 @@ int indexes(int input[], int size, int x, int output[],int indx,int k)
 int AllIndicesOfANumberInAnArray(int arr[], int size, int element, int outPut []) {
     
     // Base case when we tranverse to all array element and we do not found any occorance
-    
+      
     
     
 //    int output = AllIndicesOfANumberInAnArray(arr + 1, size - 1, element);

@@ -10,4 +10,5 @@
 
 #include <stdio.h>
 void power();
+int powerRecurison(int base, int power);
 #endif /* PowerRecursion_hpp */
