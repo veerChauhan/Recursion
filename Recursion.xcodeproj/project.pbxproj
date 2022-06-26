@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA25385E28685C9800792A0B /* SomeOFElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA25385C28685C9800792A0B /* SomeOFElement.cpp */; };
+		FA50EF3828623993008B9EFA /* AllIndicesOfANumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA50EF3628623993008B9EFA /* AllIndicesOfANumber.cpp */; };
+		FA50EF3C286245DB008B9EFA /* ArraySortedValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA50EF3A286245DB008B9EFA /* ArraySortedValidation.cpp */; };
 		FA7A27AF2855123D005111D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27AE2855123D005111D8 /* main.cpp */; };
 		FA7A27B728551265005111D8 /* PowerRecursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27B528551265005111D8 /* PowerRecursion.cpp */; };
 		FA7A27BC285512B4005111D8 /* Factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27BA285512B4005111D8 /* Factorial.cpp */; };
 		FA7A27C12855206F005111D8 /* PrintNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27BF2855206F005111D8 /* PrintNumber.cpp */; };
 		FA7A27C52855259A005111D8 /* NumberOfDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27C32855259A005111D8 /* NumberOfDigits.cpp */; };
+		FA7A27C928553414005111D8 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A27C728553414005111D8 /* Fibonacci.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA25385C28685C9800792A0B /* SomeOFElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SomeOFElement.cpp; sourceTree = "<group>"; };
+		FA25385D28685C9800792A0B /* SomeOFElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SomeOFElement.hpp; sourceTree = "<group>"; };
+		FA50EF3628623993008B9EFA /* AllIndicesOfANumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllIndicesOfANumber.cpp; sourceTree = "<group>"; };
+		FA50EF3728623993008B9EFA /* AllIndicesOfANumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllIndicesOfANumber.hpp; sourceTree = "<group>"; };
+		FA50EF3A286245DB008B9EFA /* ArraySortedValidation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraySortedValidation.cpp; sourceTree = "<group>"; };
+		FA50EF3B286245DB008B9EFA /* ArraySortedValidation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArraySortedValidation.hpp; sourceTree = "<group>"; };
 		FA7A27AB2855123D005111D8 /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7A27AE2855123D005111D8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA7A27B528551265005111D8 /* PowerRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerRecursion.cpp; sourceTree = "<group>"; };
@@ -37,6 +47,8 @@
 		FA7A27C02855206F005111D8 /* PrintNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintNumber.hpp; sourceTree = "<group>"; };
 		FA7A27C32855259A005111D8 /* NumberOfDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOfDigits.cpp; sourceTree = "<group>"; };
 		FA7A27C42855259A005111D8 /* NumberOfDigits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOfDigits.hpp; sourceTree = "<group>"; };
+		FA7A27C728553414005111D8 /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
+		FA7A27C828553414005111D8 /* Fibonacci.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fibonacci.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA25385B28685C8700792A0B /* SumOfElement */ = {
+			isa = PBXGroup;
+			children = (
+				FA25385C28685C9800792A0B /* SomeOFElement.cpp */,
+				FA25385D28685C9800792A0B /* SomeOFElement.hpp */,
+			);
+			path = SumOfElement;
+			sourceTree = "<group>";
+		};
+		FA50EF3528623974008B9EFA /* AllIndicesOfNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FA50EF3628623993008B9EFA /* AllIndicesOfANumber.cpp */,
+				FA50EF3728623993008B9EFA /* AllIndicesOfANumber.hpp */,
+			);
+			path = AllIndicesOfNumber;
+			sourceTree = "<group>";
+		};
+		FA50EF39286245C8008B9EFA /* FindArraySorted */ = {
+			isa = PBXGroup;
+			children = (
+				FA50EF3A286245DB008B9EFA /* ArraySortedValidation.cpp */,
+				FA50EF3B286245DB008B9EFA /* ArraySortedValidation.hpp */,
+			);
+			path = FindArraySorted;
+			sourceTree = "<group>";
+		};
 		FA7A27A22855123D005111D8 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +108,10 @@
 		FA7A27AD2855123D005111D8 /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FA25385B28685C8700792A0B /* SumOfElement */,
+				FA50EF39286245C8008B9EFA /* FindArraySorted */,
+				FA50EF3528623974008B9EFA /* AllIndicesOfNumber */,
+				FA7A27C628553402005111D8 /* Fibbonacci */,
 				FA7A27C22855258B005111D8 /* NumberOfDigits */,
 				FA7A27BE28552063005111D8 /* PrintNumber */,
 				FA7A27BD28551BDF005111D8 /* Power */,
@@ -112,6 +155,15 @@
 				FA7A27C42855259A005111D8 /* NumberOfDigits.hpp */,
 			);
 			path = NumberOfDigits;
+			sourceTree = "<group>";
+		};
+		FA7A27C628553402005111D8 /* Fibbonacci */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A27C728553414005111D8 /* Fibonacci.cpp */,
+				FA7A27C828553414005111D8 /* Fibonacci.hpp */,
+			);
+			path = Fibbonacci;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7A27C928553414005111D8 /* Fibonacci.cpp in Sources */,
 				FA7A27B728551265005111D8 /* PowerRecursion.cpp in Sources */,
 				FA7A27AF2855123D005111D8 /* main.cpp in Sources */,
 				FA7A27C12855206F005111D8 /* PrintNumber.cpp in Sources */,
 				FA7A27C52855259A005111D8 /* NumberOfDigits.cpp in Sources */,
+				FA50EF3C286245DB008B9EFA /* ArraySortedValidation.cpp in Sources */,
+				FA50EF3828623993008B9EFA /* AllIndicesOfANumber.cpp in Sources */,
+				FA25385E28685C9800792A0B /* SomeOFElement.cpp in Sources */,
 				FA7A27BC285512B4005111D8 /* Factorial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

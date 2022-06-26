@@ -30,6 +30,4 @@ void numberOfDigits(){
     cout << "Enter your number to find the digits : ";
     cin >> number;
     cout << "The total digits in number is : " << digits(number) << endl << endl;
-    
-    
 }
